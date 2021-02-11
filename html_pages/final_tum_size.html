@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+  <!-- stylesheet -->
+  <link rel='stylesheet' type='text/css' href='../style.css'>
+</head>
+
+<body>
+    <!-- Navigation menu -->
+    <nav class="navbar navbar-expand-md navbar-light" role='navigation'>
+        <!-- Home tab -->
+            <a class="navbar-brand" href="../index.html"><h5>Home: Drug Regimens Project</h5></a>
+
+        <!-- Button for when menu collapses -->
+        <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible menu -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </button>
+                  <!-- Dropdown menu -->
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href='measurements_per_regimen.html'>Measurements Per Regimen</a><br>
+                    <a class="dropdown-item" href='final_tum_size.html'>Final Tumor Size Boxplot</a><br>
+                    <a class="dropdown-item" href='rand_mouse_tum_vol.html'>Random Capomulin Mouse Final Tumor Size</a><br>
+                    <a class="dropdown-item" href='capo_avg_tum.html'>Average Tumor Volume: Capomulin</a><br>
+                    <a class="dropdown-item" href='infu_avg_tum.html'>Average Tumor Volume: Infubinol</a>
+                  </div>
+                </li>
+                <!-- Links to comparison and data pages -->
+                <li class="nav-item">
+                    <a class="nav-link" href='comparisons.html'>Comparisons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href='data.html'>Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-lg-6 col-sm-12 box-styling'>
+            <!-- main content -->
+                    <h3>Measurements Per Regimen</h3><hr>
+                    <img src="../visualisations/final_tumor_size_boxplot.png" alt="Final Tumour Size Boxplot">
+                    <p class='plot_text'>The boxplots of the four target drug regimens show a marked difference between the final average tumor volume of Ramicane and Capomulin, and Infobinol and Ceftamin. Each mouse in the study started with the same tumor volume, so the difference in end values across the four regimens could suggest a difference in efficacy in reducing tumor size, with Ramicane and Capomulin being more successful, since they reduced average tumor size from 45 mm3 to 36.56 and 38.13 mm3 respectively. The sample sizes are small (25 values for each regimen), so repetition of this study with more research subjects is recommended.</p>
+            </div>
+            <!-- end of div class md 6 (main)-->
+            <div class='col-lg-5 col-sm-12 box-styling'>
+                <h3>Visualisations</h3><hr>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col-lg-6 col-sm-3'>
+                            <a target="_blank" href="../visualisations/measurements_per_regimen.png">
+                                <img class='preview' src="../visualisations/measurements_per_regimen.png" alt="Measurements Per Regimen">
+                            </a>
+                        </div>
+                        <div class='col-lg-6 col-sm-3'>
+                            <a target="_blank" href="../visualisations/final_tumor_size_boxplot.png">
+                                <img class='preview' src="../visualisations/final_tumor_size_boxplot.png" alt="Measurements Per Regimen">
+                            </a>
+                        </div>
+                        <div class='col-lg-6 col-sm-3'>
+                            <a target="_blank" href="../visualisations/rand_mouse_tum_vol.png">
+                                <img class='preview' src="../visualisations/rand_mouse_tum_vol.png" alt="Measurements Per Regimen">
+                            </a>
+                        </div>
+                        <div class='col-lg-6 col-sm-3'>
+                            <a target="_blank" href="../visualisations/capomulin_avg_tum_size_linreg.png">
+                                <img class='preview' src="../visualisations/capomulin_avg_tum_size_linreg.png" alt="Measurements Per Regimen">
+                            </a>
+                        </div>
+                        <div class='col-lg-6 col-sm-3'>
+                            <a target="_blank" href="../visualisations/infubinol_avg_tum_size_linreg.png">
+                                <img class='preview' src="../visualisations/infubinol_avg_tum_size_linreg.png" alt="Measurements Per Regimen">
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- end of div class md 6 (sidebar) -->
+        </div>
+        <!-- ^^ end of row div -->
+    </div>    
+    <!-- ^^ end of container div -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+</body>
+</html>
