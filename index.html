@@ -16,7 +16,7 @@
     <!-- Navigation menu -->
     <nav class="navbar navbar-expand-md navbar-light" role='navigation'>
         <!-- Home tab -->
-            <a class="navbar-brand" href="index.html"><h3>Home: Drug Regimens Project</h3></a>
+            <a class="navbar-brand" href="index.html"><h5>Home: Drug Regimens Project</h5></a>
 
         <!-- Button for when menu collapses -->
         <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,16 +51,47 @@
     </nav>
     <div class='container'>
         <div class='row'>
-            <div class='col-md-6 box-styling'>
+            <div class='col-lg-6 col-sm-12 box-styling'>
             <!-- main content -->
-                    <h3>Summary: Drug Regimens Comparison</h3>
+                    <h3>Summary: Drug Regimens Comparison</h3><hr>
                     <p>The object of this project was to compare the effect, over 45 days, of four different cancer drugs on tumor volume of mice with squamous cell carcinoma. The four drugs were Capomulin, Ramicane, Infubinol, and Ceftamin. The study was sponsored by the makers of Capomulin, to discover how Capomulin fared compared to three other leading drugs.</p>
                     <p>The starting data for this project was contained in two CSVs, which were merged into a dataframe, and the data was cleaned, removing duplicates (see the <a href='html_pages/data.html'>Data</a> page for this base data). After cleaning the data, several visualisations were made of the data, including a summary statistics table, a bar graph showing the number of measurements per drug regimen, a pie chart of the distribution of male/female mice in the study, a boxplot of final tumor volume, a line graph of tumor volume for a randomly chosen mouse that was treated with Capomulin, and line plots of average tumor volume for each regimen, with linear regressions applied. </p> 
                     <p>Along with the aforementioned Data page, this website contains several of the more significant visualisations (under the Plots item in the menu), with explanations of any observations drawn from them. There is also a Comparisons page, showing all the visualisations together, to aid the viewer in making comparisons across graphs. </p>
             </div>
-            <!-- end of div class md 8 (main)-->
-            <div class='col-md-4 box-styling'>
-                <h3>Visualisations</h3>
+            <!-- end of div class md 6 (main)-->
+            <div class='col-lg-5 col-sm-12 box-styling'>
+                <h3>Visualisations</h3><hr>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col-lg-6 col-sm-3'>
+                            <a target="_blank" href="visualisations/measurements_per_regimen.png">
+                                <img class='preview' src="visualisations/measurements_per_regimen.png" alt="Measurements Per Regimen">
+                            </a>
+                        </div>
+                        <div class='col-lg-6 col-sm-3'>
+                            <a target="_blank" href="visualisations/final_tumor_size_boxplot.png">
+                                <img class='preview' src="visualisations/final_tumor_size_boxplot.png" alt="Measurements Per Regimen">
+                            </a>
+                        </div>
+                        <div class='col-lg-6 col-sm-3'>
+                            <a target="_blank" href="visualisations/rand_mouse_tum_vol.png">
+                                <img class='preview' src="visualisations/rand_mouse_tum_vol.png" alt="Measurements Per Regimen">
+                            </a>
+                        </div>
+                        <div class='col-lg-6 col-sm-3'>
+                            <a target="_blank" href="visualisations/capomulin_avg_tum_size_linreg.png">
+                                <img class='preview' src="visualisations/capomulin_avg_tum_size_linreg.png" alt="Measurements Per Regimen">
+                            </a>
+                        </div>
+                        <div class='col-lg-6 col-sm-3'>
+                            <a target="_blank" href="visualisations/infubinol_avg_tum_size_linreg.png">
+                                <img class='preview' src="visualisations/infubinol_avg_tum_size_linreg.png" alt="Measurements Per Regimen">
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
             <!-- end of div class md 6 (sidebar) -->
         </div>

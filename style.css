@@ -1,21 +1,30 @@
 nav {
-    background-color: white;
+    background-color: rgb(103, 152, 180);
+    /* light graph bar (bluish) colour */
 }
 
 .navbar-brand {
-    background-color: rgb(222, 252, 222);
-    color: white;
-    padding: 10px;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid teal;
+    padding: 15px;
 }
 
 body {
-    background-color: rgb(222, 252, 222);
+    background-color: rgb(243, 241, 241);
+    /* off white colour */
 }
 
 .box-styling {
     background-color: white;
-    margin: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
     padding: 30px;
+}
+
+.plot_text {
+    margin-top: 20px;
 }
 
 #data-page-container {
@@ -24,6 +33,20 @@ body {
     margin-bottom: 30px;
     padding-top: 20px;
 }
+
+.preview {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+    margin: 20px;
+}
+
+
+.preview:hover {
+    box-shadow: 0 0 2px 1px lime;
+}
+
 
 @media (max-width: 750px) {
     body {
@@ -35,11 +58,14 @@ body {
     }
 
     .navbar {
-        background-color: rgb(222, 252, 222);
+        background-color: rgb(211, 206, 206);
     }
 
     h1, h2, h3 {
-        color: darkolivegreen;
+        color: rgb(103, 152, 180);
     }
 
+    .preview {
+        width: 100px;
+    }
 }
