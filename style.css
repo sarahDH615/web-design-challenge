@@ -1,9 +1,45 @@
-/* .dropdown-item {
-    margin-left: 5px;
-    font-size: small;
-    padding: 15px;
+nav {
+    background-color: white;
 }
 
-.dropdown-menu {
-    width: max-content;
-} */
+.navbar-brand {
+    background-color: rgb(222, 252, 222);
+    color: white;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(222, 252, 222);
+}
+
+.box-styling {
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+}
+
+#data-page-container {
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+@media (max-width: 750px) {
+    body {
+        background-color: white;
+    }
+
+    table {
+        width: 80%;
+    }
+
+    .navbar {
+        background-color: rgb(222, 252, 222);
+    }
+
+    h1, h2, h3 {
+        color: darkolivegreen;
+    }
+
+}
