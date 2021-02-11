@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+  <!-- stylesheet -->
+  <link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+<header><h3></h3></header>
+<body>
+    <!-- Navigation menu -->
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <!-- Link back to home page -->
+            <a class="nav-link active" href='index.html'>Drug Regimen Project</a>
+        </li>
+        <!-- Dropdown menu -->
+        <li class="nav-item dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+            </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href='html_pages/measurements_per_regimen.html'>Measurements Per Regimen</a><br>
+            <a class="dropdown-item" href='html_pages/final_tum_size.html'>Final Tumor Size Boxplot</a><br>
+            <a class="dropdown-item" href='html_pages/rand_mouse_tum_vol.html'>Random Capomulin Mouse Final Tumor Size</a><br>
+            <a class="dropdown-item" href='html_pages/capo_avg_tum.html'>Average Tumor Volume: Capomulin</a><br>
+            <a class="dropdown-item" href='html_pages/infu_avg_tum.html'>Average Tumor Volume: Infubinol</a>
+          </div>
+          <script>
+            $('.dropdown-toggle').click(function(){
+              var parent = $(this).parent();
+              if(parent.hasClass('open')) { 
+                  parent.removeClass('open'); 
+              } else {
+                  parent.addClass('open');
+              }
+              });
+            </script>
+        </li>
+        <!-- Links to comparison and data pages -->
+        <li class="nav-item">
+          <a class="nav-link" href='comparisons.html'>Comparisons</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href='data.html'>Data</a>
+        </li>
+    </ul> 
+  
+    <!-- <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+          <script>
+              $('.dropdown-toggle').click(function(){
+                var parent = $(this).parent();
+                if(parent.hasClass('open')) { 
+                    parent.removeClass('open'); 
+                } else {
+                    parent.addClass('open');
+                }
+                });
+          </script>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul> -->
+
+    <div class='sidebar'>
+
+    </div>
+    <div class='main'>
+        <h3>Summary: Drug Regimens Comparison</h3>
+        <p>The object of this project was to compare the effect, over 45 days, of four different cancer drugs on tumor volume of mice with squamous cell carcinoma. The four drugs were Capomulin, Ramicane, Infubinol, and Ceftamin. The study was sponsored by the makers of Capomulin, to discover how Capomulin fared compared to three other leading drugs.</p>
+        <p>The starting data for this project was contained in two CSVs, which were merged into a dataframe, and the data was cleaned, removing duplicates (see the <a href='data.html'>Data</a> page for this base data). After cleaning the data, several visualisations were made of the data, including a summary statistics table, a bar graph showing the number of measurements per drug regimen, a pie chart of the distribution of male/female mice in the study, a boxplot of final tumor volume, a line graph of tumor volume for a randomly chosen mouse that was treated with Capomulin, and line plots of average tumor volume for each regimen, with linear regressions applied. </p> 
+        <p>Along with the aforementioned Data page, this website contains several of the more significant visualisations (under the Plots item in the menu), with explanations of any observations drawn from them. There is also a Comparisons page, showing all the visualisations together, to aid the viewer in making comparisons across graphs. </p>
+    </div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+</body>
+</html>
