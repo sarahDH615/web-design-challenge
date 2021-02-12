@@ -21,7 +21,7 @@
             <a class="navbar-brand" href="index.html"><h5>Drug Regimens Project</h5></a>
 
         <!-- Button for when menu collapses -->
-        <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" aria-pressed='True'>
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle bg-transparent text-dark border-0" type='button' data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-pressed="true">
                         Plots
                     </button>
                   <!-- Dropdown menu -->
@@ -43,17 +43,17 @@
                 </li>
                 <!-- Links to comparison and data pages -->
                 <li class="nav-item">
-                    <a class="nav-link" href='html_pages/comparisons.html'>Comparisons</a>
+                    <a class="nav-link text-dark btn btn-secondary bg-transparent border-0" href='html_pages/comparisons.html'>Comparisons</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href='html_pages/data.html'>Data</a>
+                    <a class="nav-link text-dark btn btn-secondary bg-transparent border-0" href='html_pages/data.html'>Data</a>
                 </li>
             </ul>
         </div>
     </nav>
     <div class='container page-hold'>
         <div class='row'>
-            <div class='col-lg-6 col-sm-12 box-styling'>
+            <div class='col-lg-6 col-xs-12 box-styling'>
             <!-- main content -->
                     <h3>Summary: Drug Regimens Comparison</h3><hr>
                     <p>The object of this project was to compare the effect, over 45 days, of four different cancer drugs on tumor volume of mice with squamous cell carcinoma. The four drugs were Capomulin, Ramicane, Infubinol, and Ceftamin. The study was sponsored by the makers of Capomulin, to discover how Capomulin fared compared to three other leading drugs.</p>
@@ -62,40 +62,38 @@
             </div>
             <!-- end of div class md 6 (main)-->
             <!-- Visualisation sidebar -->
-            <div class='col-lg-5 col-sm-12 box-styling viz_box'>
+            <div class='col-lg-5 col-xs-12 box-styling viz_box'>
                 <h3>Visualisations</h3><hr>
-                <div class='container'>
-                    <div class='row'>
-                        <div class='col-lg-6 col-sm-3'>
-                            <a target="_blank" href="visualisations/measurements_per_regimen.png">
-                                <img class='preview' src="visualisations/measurements_per_regimen.png" alt="Measurements Per Regimen">
-                            </a>
-                        </div>
-                        <div class='col-lg-6 col-sm-3'>
-                            <a target="_blank" href="visualisations/final_tumor_size_boxplot.png">
-                                <img class='preview' src="visualisations/final_tumor_size_boxplot.png" alt="Measurements Per Regimen">
-                            </a>
-                        </div>
-                        <div class='col-lg-6 col-sm-3'>
-                            <a target="_blank" href="visualisations/rand_mouse_tum_vol.png">
-                                <img class='preview' src="visualisations/rand_mouse_tum_vol.png" alt="Measurements Per Regimen">
-                            </a>
-                        </div>
-                        <div class='col-lg-6 col-sm-3'>
-                            <a target="_blank" href="visualisations/capomulin_avg_tum_size_linreg.png">
-                                <img class='preview' src="visualisations/capomulin_avg_tum_size_linreg.png" alt="Measurements Per Regimen">
-                            </a>
-                        </div>
-                        <div class='col-lg-6 col-sm-3'>
-                            <a target="_blank" href="visualisations/infubinol_avg_tum_size_linreg.png">
-                                <img class='preview' src="visualisations/infubinol_avg_tum_size_linreg.png" alt="Measurements Per Regimen">
-                            </a>
-                        </div>
-
-
+                <div class='row'>
+                    <div class='col-md-6 col-xs-2 side-div'>
+                        <a class='side-div' target="_blank" href="visualisations/measurements_per_regimen.png">
+                            <img class='preview' src="visualisations/measurements_per_regimen.png" alt="Measurements Per Regimen">
+                        </a>
                     </div>
-                    <!-- end of sidebar div row -->
+                    <div class='col-md-6 col-xs-2 side-div'>
+                        <a class='side-div' target="_blank" href="visualisations/final_tumor_size_boxplot.png">
+                            <img class='preview' src="visualisations/final_tumor_size_boxplot.png" alt="Measurements Per Regimen">
+                        </a>
+                    </div>
+                    <div class='col-md-6 col-xs-2 side-div'>
+                        <a class='side-div' target="_blank" href="visualisations/rand_mouse_tum_vol.png">
+                            <img class='preview' src="visualisations/rand_mouse_tum_vol.png" alt="Measurements Per Regimen">
+                        </a>
+                    </div>
+                    <div class='col-md-6 col-xs-2 side-div'>
+                        <a class='side-div' target="_blank" href="visualisations/capomulin_avg_tum_size_linreg.png">
+                            <img class='preview' src="visualisations/capomulin_avg_tum_size_linreg.png" alt="Measurements Per Regimen">
+                        </a>
+                    </div>
+                    <div class='col-md-6 col-xs-2 side-div'>
+                        <a class='side-div' target="_blank" href="visualisations/infubinol_avg_tum_size_linreg.png">
+                            <img class='preview' src="visualisations/infubinol_avg_tum_size_linreg.png" alt="Measurements Per Regimen">
+                        </a>
+                    </div>
+
+
                 </div>
+                    <!-- end of sidebar div row -->
                 <!-- end of sidebar div container -->
             </div>
             <!-- end of div (sidebar) -->
