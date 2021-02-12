@@ -28,7 +28,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle bg-transparent text-dark border-0" type='button' data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-pressed="true">
                         Plots
                     </button>
                   <!-- Dropdown menu -->
@@ -42,49 +42,49 @@
                 </li>
                 <!-- Links to comparison and data pages -->
                 <li class="nav-item">
-                    <a class="nav-link" href='comparisons.html'>Comparisons</a>
+                    <a class="nav-link text-dark btn btn-secondary bg-transparent border-0" href='comparisons.html'>Comparisons</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href='data.html'>Data</a>
+                    <a class="nav-link text-dark btn btn-secondary bg-transparent border-0" href='data.html'>Data</a>
                 </li>
             </ul>
         </div>
     </nav>
     <div class='container'>
         <div class='row'>
-            <div class='col-lg-6 col-sm-12 box-styling'>
+            <div class='col-lg-6 col-xs-12 box-styling'>
             <!-- main content -->
                     <h3>Measurements Per Regimen</h3><hr>
                     <img src="../visualisations/measurements_per_regimen.png" alt="Measurements Per Regimen">
                     <p class='plot_text'>As seen in the chart, the number of measurements taken per drug regimen varies, ranging from 156 to 230 measurements. This is due to the general unevenness of this data set. Aside from the duplicate values for a mouse, which were deleted, there are also missing values. For example, there are 25 measurements for Capomulin for time points 0-10, but only 24 measurements for time point 15, and 21 measurements for time point 45. As this study concerns cancers, it is possible that the mice IDs with missing values relate to mice that died before reaching the end time point. If so, that data would still be useful, and should not just be discarded. However, the number of measurements could possibly skew comparisons of analysis across treatments.</p>
             </div>
             <!-- end of div class col (main)-->
-            <div class='col-lg-5 col-sm-12 box-styling viz_box'>
+            <div class='col-lg-5 col-xs-12 box-styling viz_box'>
                 <h3>Visualisations</h3><hr>
                 <div class='container'>
                     <div class='row'>
-                        <div class='col-lg-6 col-sm-3'>
-                            <a target="_blank" href="../visualisations/measurements_per_regimen.png">
+                        <div class='col-md-6 col-xs-2 side-div'>
+                            <a class='side-div' target="_blank" href="../visualisations/measurements_per_regimen.png">
                                 <img class='preview' src="../visualisations/measurements_per_regimen.png" alt="Measurements Per Regimen">
                             </a>
                         </div>
-                        <div class='col-lg-6 col-sm-3'>
-                            <a target="_blank" href="../visualisations/final_tumor_size_boxplot.png">
+                        <div class='col-md-6 col-xs-2 side-div'>
+                            <a class='side-div' target="_blank" href="../visualisations/final_tumor_size_boxplot.png">
                                 <img class='preview' src="../visualisations/final_tumor_size_boxplot.png" alt="Measurements Per Regimen">
                             </a>
                         </div>
-                        <div class='col-lg-6 col-sm-3'>
-                            <a target="_blank" href="../visualisations/rand_mouse_tum_vol.png">
+                        <div class='col-md-6 col-xs-2 side-div'>
+                            <a class='side-div' target="_blank" href="../visualisations/rand_mouse_tum_vol.png">
                                 <img class='preview' src="../visualisations/rand_mouse_tum_vol.png" alt="Measurements Per Regimen">
                             </a>
                         </div>
-                        <div class='col-lg-6 col-sm-3'>
-                            <a target="_blank" href="../visualisations/capomulin_avg_tum_size_linreg.png">
+                        <div class='col-md-6 col-xs-2 side-div'>
+                            <a class='side-div' target="_blank" href="../visualisations/capomulin_avg_tum_size_linreg.png">
                                 <img class='preview' src="../visualisations/capomulin_avg_tum_size_linreg.png" alt="Measurements Per Regimen">
                             </a>
                         </div>
-                        <div class='col-lg-6 col-sm-3'>
-                            <a target="_blank" href="../visualisations/infubinol_avg_tum_size_linreg.png">
+                        <div class='col-md-6 col-xs-2 side-div'>
+                            <a class='side-div' target="_blank" href="../visualisations/infubinol_avg_tum_size_linreg.png">
                                 <img class='preview' src="../visualisations/infubinol_avg_tum_size_linreg.png" alt="Measurements Per Regimen">
                             </a>
                         </div>
