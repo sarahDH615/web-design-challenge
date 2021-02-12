@@ -23,6 +23,10 @@ body {
     padding: 30px;
 }
 
+.viz_box {
+    height: max-content;
+}
+
 .plot_text {
     margin-top: 20px;
 }
