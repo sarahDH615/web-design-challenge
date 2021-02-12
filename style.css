@@ -5,9 +5,12 @@ nav {
 
 .navbar-brand {
     background-color: white;
-    border-radius: 25px;
+    border-radius: 10px;
     border: 2px solid teal;
-    padding: 15px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
 }
 
 body {
@@ -71,5 +74,10 @@ body {
 
     .preview {
         width: 100px;
+    }
+
+    .page-hold {
+        margin-left: 0px;
+        margin-right: 5px;
     }
 }
