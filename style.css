@@ -13,6 +13,14 @@ nav {
     padding-left: 12px;
 }
 
+li {
+    border-radius: 10px;
+}
+
+li:hover {
+    background-color: slategrey;
+}
+
 body {
     background-color: rgb(243, 241, 241);
     /* off white colour */
@@ -86,7 +94,7 @@ body {
         width: 80px;
         margin: 5px;
     }
-    
+
     .box-styling {
         height: max-content;
     }
