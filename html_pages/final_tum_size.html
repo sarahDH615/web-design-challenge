@@ -10,13 +10,15 @@
 
   <!-- stylesheet -->
   <link rel='stylesheet' type='text/css' href='../style.css'>
+
+  <title>Final Tumor Size Boxplot</title>
 </head>
 
 <body>
     <!-- Navigation menu -->
     <nav class="navbar navbar-expand-md navbar-light" role='navigation'>
         <!-- Home tab -->
-            <a class="navbar-brand" href="../index.html"><h5>Home: Drug Regimens Project</h5></a>
+            <a class="navbar-brand" href="../index.html"><h5>Drug Regimens Project</h5></a>
 
         <!-- Button for when menu collapses -->
         <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +55,7 @@
         <div class='row'>
             <div class='col-lg-6 col-sm-12 box-styling'>
             <!-- main content -->
-                    <h3>Measurements Per Regimen</h3><hr>
+                    <h3>Final Tumor Size Per Drug Regimen: Boxplot</h3><hr>
                     <img src="../visualisations/final_tumor_size_boxplot.png" alt="Final Tumour Size Boxplot">
                     <p class='plot_text'>The boxplots of the four target drug regimens show a marked difference between the final average tumor volume of Ramicane and Capomulin, and Infobinol and Ceftamin. Each mouse in the study started with the same tumor volume, so the difference in end values across the four regimens could suggest a difference in efficacy in reducing tumor size, with Ramicane and Capomulin being more successful, since they reduced average tumor size from 45 mm3 to 36.56 and 38.13 mm3 respectively. The sample sizes are small (25 values for each regimen), so repetition of this study with more research subjects is recommended.</p>
                     <p class='plot_text'>Only one potential outlier was found, which was in the Infubinol regime. The data point was approximately 36.321 mm3, which is about 0.5 mm3 under the lower bound of 1.5 times the Interquartile Range. The data point was from a mouse ID that ended on the fifth day; other mouse IDs that ended after five days also show lower values (in the 40s mm3), although not as low as the potential outlier. This data point being identified as a possible outlier shows the problems of comparing data points at different time points: while they are all end points, they are different stages in a progression. Nonetheless, the 36.321 mm3 still stands apart from the other data points within the Infubinol set, even if comparing only those values that end at time point 5. Given the other errors in the data set (duplicate values), the 36.321 mm3 value could be a mis-entry, or it could be from a mouse with a serious cancer yet small tumors that died.</p>
