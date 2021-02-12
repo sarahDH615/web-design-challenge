@@ -13,11 +13,11 @@ nav {
     padding-left: 12px;
 }
 
-li {
+.nav-item {
     border-radius: 10px;
 }
 
-li:hover {
+.nav-item:hover {
     background-color: slategrey;
 }
 
@@ -107,4 +107,21 @@ body {
         margin-top: 0px;
         padding-top: 0px
     }
+
+    #nav-item1 {
+        width: 117px;
+    }
+
+    #nav-item2 {
+        width: 60px;
+    }
+
+    .dropdown-menu {
+        width: 500px;
+    }
+
+    #drop-menu {
+        width: 80px;
+    }
+
 }
