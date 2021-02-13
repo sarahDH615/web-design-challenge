@@ -51,6 +51,10 @@ The goal of this project was to create a series of webpages to showcase a previo
     - creating media queries for page widths smaller than 768 pixels: changing navbar color scheme, images sizes, and various margin amounts
 - deploying the page to GitHub Pages
         
-### challenges/observations
+### challenges
 
 The greatest challenge in this project was correctly styling the pages. In working through styling the pages, limitations in customisability and flexibility were found with using Bootstrap. Several colors are available for different elements, but not a full range, and some behaviors of the available classes (such as the margins and paddings of nested grids) are not fully explained in the documentation. This resulted in additions to the style.css file in order to change these standard features. On the other hand, Bootstrap's pre-determined classes were helpful for easily creating the navigation bar collapse. Overall, tools such as Bootstrap do not take away the need for a style sheet of one's own, but it greatly helps set up key and impressive elements of a webpage. 
+
+### website link
+
+The link to access the website is: https://sarahdh615.github.io/web-design-challenge/
