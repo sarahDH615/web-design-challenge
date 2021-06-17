@@ -1,5 +1,7 @@
 ### web-design-challenge
 
+![Website Preview](/images/pagePreview.png)
+
 #### contains
 - html_pages: folder containing all HTML pages save the landing page
     - capo_avg_tum.html		
