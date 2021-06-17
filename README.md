@@ -1,6 +1,8 @@
 ### web-design-challenge
 
-![Website Preview](/images/pagePreview.png)
+## Click the image to see the website
+
+[![Website Preview](/images/pagePreview.png)](https://sarahdh615.github.io/web-design-challenge/)
 
 #### contains
 - html_pages: folder containing all HTML pages save the landing page
@@ -23,7 +25,7 @@
     - infubinol_avg_tum_size_linreg.png
 
 #### description
-The goal of this project was to create a series of webpages to showcase a previous project contained in this GitHub, in the repository matplotlib-challenge. Five visualisations were chosen from that project for display on individual webpages with explanatory text largely derived from the matplotlib project. A Comparisons page, showing all the images together, and a Data page, showing the source dataframe, were also created. Bootstrap and GitHubPages were used as tools to respectively style and display the website. The following steps were taken:
+The goal of this project was to create a series of webpages to showcase a previous project contained in this GitHub, [matplotlib-challenge](https://github.com/sarahDH615/matplotlib_challenge). Five visualisations were chosen from that project for display on individual webpages with explanatory text largely derived from the matplotlib project. A Comparisons page, showing all the images together, and a Data page, showing the source dataframe, were also created. Bootstrap and GitHubPages were used as tools to respectively style and display the website. The following steps were taken:
 - obtaining source materials:
     - copying the matplotlib-challenge notebook and saving it to this repository
     - using the functions save-fig and .to_html to create images of the main graphs, and the cleaned source table
