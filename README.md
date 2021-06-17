@@ -1,6 +1,6 @@
 ### web-design-challenge
 
-## Click the image to see the website
+### Click the image to see the website
 
 [![Website Preview](/images/pagePreview.png)](https://sarahdh615.github.io/web-design-challenge/)
 
@@ -50,15 +50,22 @@ The goal of this project was to create a series of webpages to showcase a previo
         - using Bootstrap grids to design a main page section, containing a visualisation and a short explanation of it, which would sit side-by-side the sidebar at medium screen widths and above, and above the sidebar at small screen widths and below
     -  Landing/Home page (index.html):
         - using Bootstrap grids to design a main page section, containing  a short explanation of the matplotlib project, which would sit side-by-side the sidebar at medium screen widths and above, and above the sidebar at small screen widths and below
+
+<p align="center">
+  <img width="600" height="100" src="images/bootstrapRow.png">
+  <img width="600" height="100" src="images/bootstrapTable.png">
+  <nl><em>A couple examples of use of Bootstrap components: a screen-size-dependent row, and a striped, scrollable table.</em>
+</p>
+
 - creating the style.css file:
     - creating additional styling for the desktop-screen display of the webpages: background colors, link hover actions, and styling the preview images
     - creating media queries for page widths smaller than 768 pixels: changing navbar color scheme, images sizes, and various margin amounts
+<p align="center">
+  <img width="600" height="100" src="images/mediaQueries.png">
+  <nl><em>A few of the elements changing depending on screen size through use of media queries.</em>
+</p>
 - deploying the page to GitHub Pages
         
 #### challenges
 
 The greatest challenge in this project was correctly styling the pages. In working through styling the pages, limitations in customisability and flexibility were found with using Bootstrap. Several colors are available for different elements, but not a full range, and some behaviors of the available classes (such as the margins and paddings of nested grids) are not fully explained in the documentation. This resulted in additions to the style.css file in order to change these standard features. On the other hand, Bootstrap's pre-determined classes were helpful for easily creating the navigation bar collapse. Overall, tools such as Bootstrap do not take away the need for a style sheet of one's own, but it greatly helps set up key and impressive elements of a webpage. 
-
-#### website link
-
-The link to access the website is: https://sarahdh615.github.io/web-design-challenge/
